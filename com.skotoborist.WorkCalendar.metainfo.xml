@@ -20,7 +20,16 @@
   <!-- Скриншоты (исправят надпись "Нет снимков экрана") -->
   <screenshots>
     <screenshot type="default">
-      <caption>Главное окно приложения</caption>
+      <caption>Главное окно. Светлая тема</caption>
+      <image>https://githubusercontent.com</image>
+    </screenshot>
+      <caption>Главное окно. Темная тема</caption>
+      <image>https://githubusercontent.com</image>
+    </screenshot>
+      <caption>Главное окно и меню. Светлая тема</caption>
+      <image>https://githubusercontent.com</image>
+    </screenshot>
+      <caption>Главное окно и меню. Темная тема</caption>
       <image>https://githubusercontent.com</image>
     </screenshot>
   </screenshots>
@@ -34,4 +43,3 @@
     <release version="1.0.0" date="2026-09-13" />
   </releases>
 </component>
-
