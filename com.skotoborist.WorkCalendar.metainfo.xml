@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>com.skotoborist.WorkCalendar</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
@@ -8,8 +8,10 @@
   <summary>Удобный рабочий календарь для планирования задач</summary>
   
   <description>
-    <p> Work Calendar — это приложение, разработанное для эффективного тайм-менеджмента. Экспорт/импорт событий в файл. Возможность синхронизации с Вашим WebDAV.</p>
+    <p>Work Calendar — это приложение, разработанное для эффективного тайм-менеджмента. Экспорт/импорт событий в файл. Возможность синхронизации с Вашим WebDAV.</p>
   </description>
+
+  <launchable type="desktop-id">com.skotoborist.WorkCalendar.desktop</launchable>
 
   <url type="homepage">https://github.com/skotoborist1/com.skotoborist.WorkCalendar</url>
   <url type="bugtracker">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/issues</url>
@@ -18,11 +20,20 @@
   <screenshots>
     <screenshot type="default">
       <caption>Главный экран. Светлая тема</caption>
-      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/main-light.png?raw=true/image>
+      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/main-light.png?raw=true</image>
+    </screenshot>
+    
+    <screenshot>
       <caption>Главный экран. Тёмная тема</caption>
-      <image type="source">hhttps://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/main-dark.png?raw=true</image>
+      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/main-dark.png?raw=true</image>
+    </screenshot>
+    
+    <screenshot>
       <caption>Главный экран и меню. Светлая тема</caption>
       <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/menu-light.png?raw=true</image>
+    </screenshot>
+    
+    <screenshot>
       <caption>Главный экран и меню. Тёмная тема</caption>
       <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/menu-dark.png?raw=true</image>
     </screenshot>
@@ -56,6 +67,4 @@
     <content_attribute id="social-location">none</content_attribute>
     <content_attribute id="social-contacts">none</content_attribute>
   </content_rating>
-
-  
 </component>
