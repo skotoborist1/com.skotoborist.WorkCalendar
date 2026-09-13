@@ -1,9 +1,6 @@
 [Flatpak Ref]
 Title=Work Calendar
 Name=com.skotoborist.WorkCalendar
-# 1. Ссылка на готовый flatpak в Релизах
-Url=https://github.com/skotoborist1/com.skotoborist.WorkCalendar/releases/download/v1.0/com.skotoborist.WorkCalendar.flatpak
+Url=https://github.com
 IsRuntime=false
-# 2. ДОБАВЬТЕ ЭТИ ДВЕ СТРОЧКИ: Они заставляют Flatpak качать пакет напрямую по ссылке выше
-GPGKey=
-RuntimeRepo=https://github.com/skotoborist1/com.skotoborist.WorkCalendar/releases/download/v1.0/com.skotoborist.WorkCalendar.flatpak
+RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
