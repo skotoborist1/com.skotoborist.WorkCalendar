@@ -1,0 +1,7 @@
+[Flatpak Ref]
+Title=Work Calendar
+Name=com.skotoborist.WorkCalendar
+# Ссылка на ваш готовый .flatpak файл, который вы загрузили в Релизы GitHub
+Url=https://github.com/skotoborist1/com.skotoborist.WorkCalendar/releases/download/v1.0/com.skotoborist.WorkCalendar.flatpak
+IsRuntime=false
+

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Work Calendar
+Comment=Календарь рабочих событий
+# 1. Исправлено имя исполняемого файла в соответствии с манифестом Flatpak
+Exec=com.skotoborist.WorkCalendar
+# 2. Оставляем как есть, имя указано верно (без расширения)
+Icon=com.skotoborist.WorkCalendar
+Terminal=false
+Categories=Office;Calendar;Utility;
+Keywords=calendar;work;events;
+# 3. Добавлена явная связь ярлыка с ID приложения для GNOME Software
+X-Flatpak=com.skotoborist.WorkCalendar
+
