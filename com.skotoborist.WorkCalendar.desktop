@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Work Calendar
+Comment=Календарь рабочих событий
+Exec=work-calendar
+Icon=com.skotoborist.WorkCalendar
+Terminal=false
+Categories=Office;Calendar;Utility;
+Keywords=calendar;work;events;
+

@@ -1,0 +1,25 @@
+id: com.skotoborist.WorkCalendar
+runtime: org.gnome.Platform
+runtime-version: "46"
+sdk: org.gnome.Sdk
+command: work-calendar
+finish-args:
+  - --share=network
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --filesystem=home
+modules:
+  - name: work-calendar
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 main.py /app/bin/work-calendar
+      - install -Dm644 com.skotoborist.WorkCalendar.desktop /app/share/applications/com.skotoborist.WorkCalendar.desktop
+      - install -Dm644 com.skotoborist.WorkCalendar.svg /app/share/icons/hicolor/scalable/apps/com.skotoborist.WorkCalendar.svg
+    sources:
+      - type: file
+        path: main.py
+      - type: file
+        path: com.skotoborist.WorkCalendar.desktop
+      - type: file
+        path: com.skotoborist.WorkCalendar.svg
+

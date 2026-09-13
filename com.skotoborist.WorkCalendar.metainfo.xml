@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-id">
+  <id>com.skotoborist.WorkCalendar</id>
+  
+  <!-- Имя и краткое описание -->
+  <name>Work Calendar</name>
+  <summary>Удобный рабочий календарь для планирования задач</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license> <!-- Укажите вашу лицензию -->
+  
+  <!-- Подробное описание (заменит текст "A flatpak application") -->
+  <description>
+    <p>
+      Work Calendar — это приложение, разработанное для эффективного тайм-менеджмента.
+      Экспорт/импорт событий в файл. Возможность синхронизации с Вашим WebDAV.
+    </p>
+  </description>
+
+  <!-- Скриншоты (исправят надпись "Нет снимков экрана") -->
+  <screenshots>
+    <screenshot type="default">
+      <caption>Главное окно приложения</caption>
+      <image>https://githubusercontent.com</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com</url>
+  
+  <!-- Возрастной рейтинг (заполнит плашку справа внизу) -->
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.0" date="2026-09-13" />
+  </releases>
+</component>
+
