@@ -1,45 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop-id">
+<component type="desktop">
   <id>com.skotoborist.WorkCalendar</id>
-  
-  <!-- Имя и краткое описание -->
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
   <name>Work Calendar</name>
   <summary>Удобный рабочий календарь для планирования задач</summary>
   
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>MIT</project_license> <!-- Укажите вашу лицензию -->
-  
-  <!-- Подробное описание (заменит текст "A flatpak application") -->
   <description>
-    <p>
-      Work Calendar — это приложение, разработанное для эффективного тайм-менеджмента.
-      Экспорт/импорт событий в файл. Возможность синхронизации с Вашим WebDAV.
-    </p>
+    <p> Work Calendar — это приложение, разработанное для эффективного тайм-менеджмента. Экспорт/импорт событий в файл. Возможность синхронизации с Вашим WebDAV.</p>
   </description>
 
-  <!-- Скриншоты (исправят надпись "Нет снимков экрана") -->
+  <url type="main-dark">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/main-dark.png</url>
+  <url type="menu-light">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/menu-light.png</url>
+  <url type="menu-dark">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/menu-dark.png</url>
+
   <screenshots>
     <screenshot type="default">
-      <caption>Главное окно. Светлая тема</caption>
-      <image>https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/main-light.png</image>
-    </screenshot>
-      <caption>Главное окно. Темная тема</caption>
-      <image>https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/main-dark.png</image>
-    </screenshot>
-      <caption>Главное окно и меню. Светлая тема</caption>
-      <image>https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/menu-light.png</image>
-    </screenshot>
-      <caption>Главное окно и меню. Темная тема</caption>
-      <image>https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/menu-dark.png</image>
+      <caption>Главный экран приложения</caption>
+      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/main-light.png</image>
     </screenshot>
   </screenshots>
-
-  <url type="homepage">https://github.com</url>
-  
-  <!-- Возрастной рейтинг (заполнит плашку справа внизу) -->
-  <content_rating type="oars-1.1" />
-
-  <releases>
-    <release version="1.0.0" date="2026-09-13" />
-  </releases>
 </component>
