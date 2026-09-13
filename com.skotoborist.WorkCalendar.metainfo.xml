@@ -10,14 +10,51 @@
     <p> Work Calendar — это приложение, разработанное для эффективного тайм-менеджмента. Экспорт/импорт событий в файл. Возможность синхронизации с Вашим WebDAV.</p>
   </description>
 
-  <url type="main-dark">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/main-dark.png</url>
-  <url type="menu-light">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/menu-light.png</url>
-  <url type="menu-dark">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/menu-dark.png</url>
+  <url type="homepage">https://github.com/skotoborist1/com.skotoborist.WorkCalendar</url>
+  <url type="bugtracker">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/issues</url>
+  <url type="vcs-browser">https://github.com/skotoborist1/com.skotoborist.WorkCalendar</url>
 
   <screenshots>
     <screenshot type="default">
-      <caption>Главный экран приложения</caption>
-      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/30b1542fa3f35b4ee89a530694a264f83f0e9dc9/screenshots/main-light.png</image>
+      <caption>Главный экран. Светлая тема</caption>
+      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/main-light.png?raw=true/image>
+      <caption>Главный экран. Тёмная тема</caption>
+      <image type="source">hhttps://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/main-dark.png?raw=true</image>
+      <caption>Главный экран и меню. Светлая тема</caption>
+      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/menu-light.png?raw=true</image>
+      <caption>Главный экран и меню. Тёмная тема</caption>
+      <image type="source">https://github.com/skotoborist1/com.skotoborist.WorkCalendar/blob/main/screenshots/menu-dark.png?raw=true</image>
     </screenshot>
   </screenshots>
+  
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="violence-desensitization">none</content_attribute>
+    <content_attribute id="violence-sexual-stories">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="sex-homosexuality">none</content_attribute>
+    <content_attribute id="sex-prostitution">none</content_attribute>
+    <content_attribute id="sex-adultery">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="money-advertising">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+  </content_rating>
+
+  
 </component>
