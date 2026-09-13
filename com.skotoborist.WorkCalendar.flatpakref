@@ -1,6 +1,8 @@
 [Flatpak Ref]
-Title=Work Calendar
+Title=WorkCalendar
 Name=com.skotoborist.WorkCalendar
+Branch=main          # должно совпадать с тем, что в репозитории
 Url=https://github.com/skotoborist1/com.skotoborist.WorkCalendar/releases/download/v1.0/com.skotoborist.WorkCalendar.flatpak
-IsRuntime=false
+SuggestRemoteName=workcalendar1
 RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
+IsRuntime=false
